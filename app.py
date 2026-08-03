@@ -19,7 +19,7 @@ try:
 
     # توحد
     autism_model = pickle.load(open('models/Autism.pkl', 'rb'))
-    autism_scaler = pickle.load(open('models/scaler_autism.pkl', 'rb'))
+    autism_scaler = pickle.load(open('models/Scaler_autism.pkl', 'rb'))
 
     # انيميا
     anemia_data = pickle.load(open('models/Animia_model.pkl', 'rb'))
